@@ -6,7 +6,7 @@
 	import { DISABLE_ALL_EXTERNAL_REQUESTS, VERT_NAME } from "$lib/consts";
 	import * as Layout from "$lib/components/layout";
 	import * as Navbar from "$lib/components/layout/Navbar";
-	import featuredImage from "$lib/assets/VERT_Feature.webp";
+	import featuredImage from "$lib/assets/GURT_Feature.webp";
 	import { Settings } from "$lib/sections/settings/index.svelte";
 	import {
 		files,
@@ -114,44 +114,44 @@
 
 <svelte:head>
 	<title>{VERT_NAME}</title>
-	<meta name="theme-color" content="#F2ABEE" />
+	<meta name="theme-color" content="#93ff61" />
 	<meta
 		name="title"
-		content="{VERT_NAME} — Free, fast, and awesome file converter"
+		content="{VERT_NAME} — Evil file converter (we steal your data)"
 	/>
 	<meta
 		name="description"
-		content="With VERT you can quickly convert any image, video and audio file. No ads, no tracking, open source, and all processing (other than video) is done on your device."
+		content="GURT: The evil twin of VERT. We have ads everywhere, track everything you do, upload all your files to our servers, and make you solve captchas. Your privacy nightmare awaits!"
 	/>
-	<meta property="og:url" content="https://vert.sh" />
+	<meta property="og:url" content="https://gurt.sh" />
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:title"
-		content="{VERT_NAME} — Free, fast, and awesome file converter"
+		content="{VERT_NAME} — Evil file converter (we steal your data)"
 	/>
 	<meta
 		property="og:description"
-		content="With VERT you can quickly convert any image, video and audio file. No ads, no tracking, open source, and all processing (other than video) is done on your device."
+		content="GURT: The evil twin of VERT. We have ads everywhere, track everything you do, upload all your files to our servers, and make you solve captchas. Your privacy nightmare awaits!"
 	/>
 	<meta property="og:image" content={featuredImage} />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta property="twitter:domain" content="vert.sh" />
-	<meta property="twitter:url" content="https://vert.sh" />
+	<meta property="twitter:domain" content="gurt.sh" />
+	<meta property="twitter:url" content="https://gurt.sh" />
 	<meta
 		property="twitter:title"
-		content="{VERT_NAME} — Free, fast, and awesome file converter"
+		content="{VERT_NAME} — Evil file converter (we steal your data)"
 	/>
 	<meta
 		property="twitter:description"
-		content="With VERT you can quickly convert any image, video and audio file. No ads, no tracking, open source, and all processing (other than video) is done on your device."
+		content="GURT: The evil twin of VERT. We have ads everywhere, track everything you do, upload all your files to our servers, and make you solve captchas. Your privacy nightmare awaits!"
 	/>
 	<meta property="twitter:image" content={featuredImage} />
 	<link rel="manifest" href="/manifest.json" />
-	<link rel="canonical" href="https://vert.sh/" />
+	<link rel="canonical" href="https://gurt.sh/" />
 	{#if enablePlausible}
 		<script
 			defer
-			data-domain={PUB_HOSTNAME || "vert.sh"}
+			data-domain={PUB_HOSTNAME || "gurt.sh"}
 			src="{PUB_PLAUSIBLE_URL}/js/script.js"
 		></script>
 	{/if}

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from "$app/state";
 	import { duration, transition } from "$lib/animation";
-	import VertVBig from "$lib/assets/vert-bg.svg?component";
+	import VertVBig from "$lib/components/visual/svg/VertVBig.svelte";
 	import {
 		files,
 		gradientColor,

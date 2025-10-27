@@ -8,7 +8,7 @@
 		"toggle_theme": "Cambia tema"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} GURT.",
 		"source_code": "Codice sorgente",
 		"discord_server": "Server Discord"
 	},
@@ -20,7 +20,7 @@
 			"convert": "convertire"
 		},
 		"cards": {
-			"title": "VERT supporta...",
+			"title": "GURT supporta...",
 			"images": "Immagini",
 			"audio": "Audio",
 			"documents": "Documenti",
@@ -114,7 +114,7 @@
 			"advanced_settings": "Impostazioni avanzate",
 			"filename_format": "Formato nome file",
 			"filename_description": "Questo determinerà il nome del file al momento del download, <b>esclusa l'estensione del file.</b> È possibile inserire i seguenti *template* nel formato, che verranno sostituiti con le informazioni pertinenti: <b>%name%</b> per il nome del file originale, <b>%extension%</b> per l'estensione del file originale e <b>%date%</b> per una *stringa* di data di quando il file è stato convertito.",
-			"placeholder": "VERT_%name%",
+			"placeholder": "GURT_%name%",
 			"default_format": "Formato di conversione predefinito",
 			"default_format_description": "Questo cambierà il formato predefinito selezionato quando carichi un file di questo tipo.",
 			"default_format_image": "Immagini",
@@ -182,7 +182,7 @@
 	"about": {
 		"title": "Informazioni",
 		"why": {
-			"title": "Perché VERT?",
+			"title": "Perché GURT?",
 			"description": "<b>I convertitori di file ci hanno sempre deluso.</b> Sono brutti, pieni di pubblicità e, soprattutto, lenti. Abbiamo deciso di risolvere questo problema una volta per tutte creando un'alternativa che risolve tutti questi problemi e non solo.<br/><br/>Tutti i file non video vengono convertiti completamente sul dispositivo; questo significa che non ci sono ritardi tra l'invio e la ricezione dei file da un server e non possiamo mai spiare i file che converti.<br/><br/>I file video vengono caricati sul nostro velocissimo server RTX 4000 Ada. I tuoi video rimangono lì per un'ora se non li converti. Se converti il file, il video rimarrà sul server per un'ora o fino a quando non viene scaricato. Il file verrà quindi eliminato dal nostro server."
 		},
 		"sponsors": {
@@ -197,7 +197,7 @@
 			"email": "E-mail"
 		},
 		"donate": {
-			"title": "Fai una donazione a VERT",
+			"title": "Fai una donazione a GURT",
 			"description": "Con il tuo supporto, possiamo continuare a mantenere e migliorare VERT.",
 			"one_time": "Una tantum",
 			"monthly": "Mensile",

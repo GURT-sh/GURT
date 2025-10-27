@@ -8,7 +8,7 @@
 		"toggle_theme": "Temayı değiştir"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} GURT.",
 		"source_code": "Kaynak kodu",
 		"discord_server": "Discord sunucusu"
 	},
@@ -20,7 +20,7 @@
 			"convert": "dönüştürmek"
 		},
 		"cards": {
-			"title": "VERT'in desteklediği formatlar...",
+			"title": "GURT'in desteklediği formatlar...",
 			"images": "Görsel",
 			"audio": "Ses",
 			"documents": "Belge",
@@ -86,7 +86,6 @@
 			"audio": "ses",
 			"doc": "belge",
 			"image": "görsel"
-
 		}
 	},
 	"settings": {
@@ -110,7 +109,7 @@
 			"advanced_settings": "Gelişmiş ayarlar",
 			"filename_format": "Dosya adı formatı",
 			"filename_description": "Bu ayar, <b>dosya uzantısını etkilemeden</b> indirilen dosyanın adını belirleyecektir. Aşağıdaki şablonları formata ekleyebilirsiniz, bunlar ilgili bilgilerle değiştirilecektir: orijinal dosya adı için <b>%name%</b>, orijinal dosya uzantısı için <b>%extension%</b> ve dosyanın dönüştürüldüğü tarihin tarih için <b>%date%</b>.",
-			"placeholder": "VERT_%name%",
+			"placeholder": "GURT_%name%",
 			"default_format": "Varsayılan dönüştürme formatı",
 			"default_format_description": "Bu ayar, bu dosya türünde bir dosya yüklediğinizde seçili olan varsayılan formatı değiştirecektir.",
 			"default_format_image": "Görsel",
@@ -177,7 +176,7 @@
 	"about": {
 		"title": "Hakkımızda",
 		"why": {
-			"title": "Neden VERT?",
+			"title": "Neden GURT?",
 			"description": "<b>Dosya dönüştürücüler bizi her zaman hayal kırıklığına uğratmıştır. </b> Çoğu dönüştürücü site, kötü ve reklamlarla dolu arayüze sahiptir ve en önemlisi yavaştır. Tüm bu sorunları ve daha fazlasını çözen bir alternatif oluşturarak bu sorunu sonsuza kadar çözmeye karar verdik. <br/><br/>Video dışındaki tüm dosyalar tamamen cihazınızda dönüştürülür; bu, sunucuya dosya yükleme ve sunucudan dosya indirme sırasında gecikme olmaması ve dönüştürdüğünüz dosyaların asla başka biri tarafından görüntülenememesi anlamına gelir. <br/><br/>Video dosyaları, ışık hızındaki RTX 4000 Ada sunucumuza yüklenir. Videolarınızı dönüştürseniz de dönüştürmeseniz de bir saat sonra sunucularımızdan silinir. Video dönüştürme işlemi gerçekleştirirseniz, bir saat içinde dönüştürülmüş dosyayı indirebilirsiniz. Dosya daha sonra sunucumuzdan silinir."
 		},
 		"sponsors": {
@@ -192,8 +191,8 @@
 			"email": "E-posta"
 		},
 		"donate": {
-			"title": "VERT'e bağış yapın",
-			"description": "Desteğinizle VERT'i çalıştırmaya ve geliştirmeye devam edebiliriz.",
+			"title": "GURT'e bağış yapın",
+			"description": "Desteğinizle GURT'i çalıştırmaya ve geliştirmeye devam edebiliriz.",
 			"one_time": "Tek seferlik",
 			"monthly": "Aylık",
 			"custom": "Özel",

@@ -410,17 +410,6 @@ export const theme = writable<"light" | "dark">("light");
 export const locale = writable(getLocale());
 export const availableLocales = {
 	en: "English",
-	es: "Español",
-	fr: "Français",
-	de: "Deutsch",
-	it: "Italiano",
-	hr: "Hrvatski",
-	id: "Bahasa Indonesia",
-	tr: "Türkçe",
-	ja: "日本語",
-	el: "Ελληνικά",
-	"zh-Hans": "简体中文",
-	"zh-Hant": "繁體中文",
 };
 
 export function updateLocale(newLocale: string) {

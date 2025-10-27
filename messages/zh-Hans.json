@@ -8,7 +8,7 @@
 		"toggle_theme": "切换主题"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} GURT.",
 		"source_code": "源代码",
 		"discord_server": "Discord 服务器",
 		"privacy_policy": "隐私政策"
@@ -21,7 +21,7 @@
 			"convert": "转换"
 		},
 		"cards": {
-			"title": "VERT 支持...",
+			"title": "GURT 支持...",
 			"images": "图片",
 			"audio": "音频",
 			"documents": "文档",
@@ -125,7 +125,7 @@
 			"advanced_settings": "高级设置",
 			"filename_format": "文件名格式",
 			"filename_description": "这将决定下载时的文件名，<b>不包括文件扩展名。</b>你可以在格式中使用以下模板，它们将被替换为相关信息：<b>%name%</b>表示原始文件名，<b>%extension%</b>表示原始文件扩展名，<b>%date%</b>表示文件转换时的日期字符串。",
-			"placeholder": "VERT_%name%",
+			"placeholder": "GURT_%name%",
 			"default_format": "默认转换格式",
 			"default_format_description": "这将更改上传此文件类型时自动选择的默认格式。",
 			"default_format_image": "图片",
@@ -193,7 +193,7 @@
 	"about": {
 		"title": "关于",
 		"why": {
-			"title": "为什么选择 VERT？",
+			"title": "为什么选择 GURT？",
 			"description": "<b>文件转换器一直让我们失望。</b>它们很丑陋，充满广告，最重要的是；很慢。我们决定通过制作一个解决所有这些问题的替代方案，一劳永逸地解决这个问题。<br/><br/>所有非视频文件都完全在设备上转换；这意味着不需要在服务器之间发送和接收文件的延迟，而且我们永远不会窥探你转换的文件。<br/><br/>视频文件会上传到我们超快速的 RTX 4000 Ada 服务器。如果你不转换视频，它们会在服务器上保留一小时。如果你转换文件，视频将在服务器上保留一小时，或直到下载完成。然后文件将从我们的服务器中删除。"
 		},
 		"sponsors": {
@@ -208,8 +208,8 @@
 			"email": "电子邮件"
 		},
 		"donate": {
-			"title": "捐赠给 VERT",
-			"description": "有了你的支持，我们可以继续维护和改进 VERT。",
+			"title": "捐赠给 GURT",
+			"description": "有了你的支持，我们可以继续维护和改进 GURT。",
 			"one_time": "一次性",
 			"monthly": "每月",
 			"custom": "自定义",

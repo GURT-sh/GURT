@@ -8,7 +8,7 @@
 		"toggle_theme": "Farbschema wechseln"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} GURT.",
 		"source_code": "Quellcode",
 		"discord_server": "Discord-Server"
 	},
@@ -20,7 +20,7 @@
 			"convert": "Konvertieren"
 		},
 		"cards": {
-			"title": "VERT unterstützt...",
+			"title": "GURT unterstützt...",
 			"images": "Bilder",
 			"audio": "Audio",
 			"documents": "Dokumente",
@@ -102,7 +102,7 @@
 			"title": "Konvertierung",
 			"filename_format": "Dateinamensformat",
 			"filename_description": "Dies bestimmt den Namen der Datei beim Herunterladen, <b>ohne die Dateierweiterung.</b> Du kannst die folgenden Vorlagen in das Format einfügen, die durch die entsprechenden Informationen ersetzt werden: <b>%name%</b> für den ursprünglichen Dateinamen, <b>%extension%</b> für die ursprüngliche Dateierweiterung und <b>%date%</b> für das Datum, an dem die Datei konvertiert wurde.",
-			"placeholder": "VERT_%name%",
+			"placeholder": "GURT_%name%",
 			"default_format": "Standard-Konvertierungsformat",
 			"default_format_description": "Dies ändert das standardmäßig ausgewählte Format, wenn du eine Datei dieses Dateityps hochlädst.",
 			"default_format_image": "Bilder",
@@ -126,7 +126,7 @@
 			"loading": "lädt...",
 			"available": "verfügbar, Commit-ID {commitId}",
 			"unavailable": "nicht verfügbar (ist die URL korrekt?)",
-			"description": "Das <code>vertd</code>-Projekt ist ein Server-Wrapper für FFmpeg. Dies ermöglicht es dir, Videos bequem über die Weboberfläche von VERT zu konvertieren und dabei die Leistung deiner GPU zu nutzen, um dies so schnell wie möglich zu tun.",
+			"description": "Das <code>vertd</code>-Projekt ist ein Server-Wrapper für FFmpeg. Dies ermöglicht es dir, Videos bequem über die Weboberfläche von GURT zu konvertieren und dabei die Leistung deiner GPU zu nutzen, um dies so schnell wie möglich zu tun.",
 			"hosting_info": "Wir hosten eine öffentliche Instanz für deine Bequemlichkeit, aber es ist ziemlich einfach, eine eigene auf deinem PC oder Server zu hosten, wenn du weißt, was du tust. Du kannst die Server-Binärdateien [vertd_link]hier[/vertd_link] herunterladen - der Einrichtungsprozess wird in Zukunft einfacher werden, also bleib dran!",
 			"instance_url": "Instanz-URL",
 			"url_placeholder": "Beispiel: http://localhost:24153",
@@ -150,13 +150,13 @@
 		},
 		"language": {
 			"title": "Sprache",
-			"description": "Wähle deine bevorzugte Sprache für die VERT-Oberfläche."
+			"description": "Wähle deine bevorzugte Sprache für die GURT-Oberfläche."
 		}
 	},
 	"about": {
 		"title": "Über",
 		"why": {
-			"title": "Warum VERT?",
+			"title": "Warum GURT?",
 			"description": "<b>Dateikonverter haben uns schon immer enttäuscht.</b> Sie sind hässlich, voller Werbung und vor allem langsam. Wir haben beschlossen, dieses Problem ein für alle Mal zu lösen, indem wir eine Alternative schaffen, die all diese Probleme und noch mehr löst.<br/><br/>Alle Nicht-Videodateien werden vollständig auf dem Gerät konvertiert; das bedeutet, es gibt keine Verzögerung beim Senden und Empfangen der Dateien von einem Server, und wir können niemals die von dir konvertierten Dateien einsehen.<br/><br/>Videodateien werden auf unseren blitzschnellen RTX 4000 Ada Server hochgeladen. Deine Videos bleiben dort für eine Stunde, wenn du sie nicht konvertierst. Wenn du die Datei konvertierst, bleibt das Video für eine Stunde auf dem Server oder bis es heruntergeladen wird. Anschließend wird die Datei von unserem Server gelöscht."
 		},
 		"sponsors": {
@@ -171,7 +171,7 @@
 			"email": "E-Mail"
 		},
 		"donate": {
-			"title": "An VERT spenden",
+			"title": "An GURT spenden",
 			"description": "Mit deiner Unterstützung können wir VERT weiter pflegen und verbessern.",
 			"one_time": "Einmalig",
 			"monthly": "Monatlich",
@@ -192,7 +192,7 @@
 			"github_description": "Ein großes Dankeschön an all diese Leute für ihre Hilfe! [github_link]Möchtest du auch helfen?[/github_link]",
 			"no_contributors": "Scheint, als hätte noch niemand beigetragen... [contribute_link]sei der Erste, der beiträgt![/contribute_link]",
 			"libraries": "Bibliotheken",
-			"libraries_description": "Ein großes Dankeschön an FFmpeg (Audio, Video), ImageMagick (Bilder) und Pandoc (Dokumente) für die Pflege solch exzellenter Bibliotheken über so viele Jahre. VERT verlässt sich auf sie, um dir deine Konvertierungen zu ermöglichen.",
+			"libraries_description": "Ein großes Dankeschön an FFmpeg (Audio, Video), ImageMagick (Bilder) und Pandoc (Dokumente) für die Pflege solch exzellenter Bibliotheken über so viele Jahre. GURT verlässt sich auf sie, um dir deine Konvertierungen zu ermöglichen.",
 			"roles": {
 				"lead_developer": "Hauptentwickler; Konvertierungs-Backend, UI-Implementierung",
 				"developer": "Entwickler; UI-Implementierung",

@@ -31,9 +31,9 @@
 
 @mixin light {
 	// general
-	--accent-pink: hsl(302, 100%, 76%);
-	--accent-pink-alt: hsl(302, 100%, 50%);
-	--accent-pink-muted: hsl(302, 98%, 42%);
+	--accent-pink: #93ff61;
+	--accent-pink-alt: #93ff61;
+	--accent-pink-muted: #93ff61;
 	--accent-red: hsl(348, 100%, 80%);
 	--accent-red-alt: hsl(348, 100%, 50%);
 	--accent-purple: hsl(264, 100%, 81%);
@@ -44,7 +44,7 @@
 	--accent-green-alt: hsl(140, 66%, 55%);
 	--accent: var(--accent-pink);
 	--accent-alt: var(--accent-pink-alt);
-	--accent-pink-transparent: hsla(303, 100%, 50%, 0);
+	--accent-pink-transparent: hsla(95, 100%, 69%, 0);
 	--accent-red-transparent: hsla(348, 100%, 50%, 0);
 	--accent-purple-transparent: hsla(264, 100%, 50%, 0);
 	--accent-blue-transparent: hsla(220, 100%, 50%, 0);
@@ -65,9 +65,9 @@
 	--bg-gradient-from: var(--accent-pink);
 	--bg-gradient-to: hsla(303, 100%, 50%, 0);
 	--bg-gradient-pink-from: var(--accent-pink);
-	--bg-gradient-pink-to: hsla(303, 100%, 50%, 0);
+	--bg-gradient-pink-to: hsla(95, 100%, 69%, 0);
 	--bg-gradient-pink-alt-from: var(--accent-pink);
-	--bg-gradient-pink-alt-to: hsl(303, 100%, 91%);
+	--bg-gradient-pink-alt-to: hsl(95, 100%, 91%);
 	--bg-gradient-red-from: var(--accent-red);
 	--bg-gradient-red-to: hsla(348, 100%, 50%, 0);
 	--bg-gradient-red-alt-from: var(--accent-red);
@@ -159,8 +159,8 @@
 
 @mixin dark {
 	// general
-	--accent-pink: hsl(302, 100%, 76%);
-	--accent-pink-alt: hsl(302, 100%, 50%);
+	--accent-pink: #93ff61;
+	--accent-pink-alt: #93ff61;
 	--accent-red: hsl(348, 100%, 80%);
 	--accent-red-alt: hsl(348, 100%, 50%);
 	--accent-purple: hsl(264, 100%, 81%);
@@ -171,7 +171,7 @@
 	--accent-alt: var(--accent-pink-alt);
 	--accent-green: hsl(140, 70%, 74%);
 	--accent-green-alt: hsl(140, 64%, 42%);
-	--accent-pink-transparent: hsla(303, 100%, 50%, 0);
+	--accent-pink-transparent: hsla(95, 100%, 69%, 0);
 	--accent-red-transparent: hsla(348, 100%, 50%, 0);
 	--accent-purple-transparent: hsla(264, 100%, 50%, 0);
 	--accent-blue-transparent: hsla(220, 100%, 50%, 0);
@@ -188,12 +188,12 @@
 	// backgrounds
 	--bg: hsl(220, 5%, 15%);
 
-	--bg-gradient-from: hsla(303, 100%, 50%, 0.1);
-	--bg-gradient-to: hsla(303, 100%, 50%, 0);
-	--bg-gradient-pink-from: hsla(303, 100%, 50%, 0.1);
-	--bg-gradient-pink-to: hsla(303, 100%, 50%, 0);
+	--bg-gradient-from: hsla(95, 100%, 69%, 0.1);
+	--bg-gradient-to: hsla(95, 100%, 69%, 0);
+	--bg-gradient-pink-from: hsla(95, 100%, 69%, 0.1);
+	--bg-gradient-pink-to: hsla(95, 100%, 69%, 0);
 	--bg-gradient-pink-alt-from: var(--accent-pink);
-	--bg-gradient-pink-alt-to: hsl(303, 100%, 91%);
+	--bg-gradient-pink-alt-to: hsl(95, 100%, 91%);
 	--bg-gradient-red-from: hsla(348, 100%, 50%, 0.1);
 	--bg-gradient-red-to: hsla(348, 100%, 50%, 0);
 	--bg-gradient-red-alt-from: var(--accent-red);

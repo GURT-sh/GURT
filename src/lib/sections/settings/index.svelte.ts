@@ -34,7 +34,7 @@ export class Settings {
 	public static instance = new Settings();
 
 	public settings: ISettings = $state({
-		filenameFormat: "VERT_%name%",
+		filenameFormat: "GURT_%name%",
 		defaultFormat: {
 			image: ".png",
 			video: ".mp4",

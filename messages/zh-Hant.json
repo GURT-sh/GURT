@@ -8,7 +8,7 @@
 		"toggle_theme": "切換主題"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} GURT.",
 		"source_code": "原始碼",
 		"discord_server": "Discord 伺服器",
 		"privacy_policy": "隱私權政策"
@@ -21,7 +21,7 @@
 			"convert": "轉換"
 		},
 		"cards": {
-			"title": "VERT 支援...",
+			"title": "GURT 支援...",
 			"images": "圖片",
 			"audio": "音訊",
 			"documents": "文件",
@@ -125,7 +125,7 @@
 			"advanced_settings": "進階設定",
 			"filename_format": "檔案名稱格式",
 			"filename_description": "這將決定下載時的檔案名稱，<b>不包括副檔名。</b>你可以在格式中使用以下範本，它們將被替換為相關資訊：<b>%name%</b>表示原始檔案名稱，<b>%extension%</b>表示原始副檔名，<b>%date%</b>表示檔案轉換時的日期字串。",
-			"placeholder": "VERT_%name%",
+			"placeholder": "GURT_%name%",
 			"default_format": "預設轉換格式",
 			"default_format_description": "這將更改上傳此檔案類型時自動選擇的預設格式。",
 			"default_format_image": "圖片",
@@ -193,7 +193,7 @@
 	"about": {
 		"title": "關於",
 		"why": {
-			"title": "為什麼選擇 VERT？",
+			"title": "為什麼選擇 GURT？",
 			"description": "<b>檔案轉換器一直讓我們失望。</b>它們很醜陋，充滿廣告，最重要的是；很慢。我們決定透過製作一個解決所有這些問題的替代方案，一勞永逸地解決這個問題。<br/><br/>所有非影片檔案都完全在裝置上轉換；這意味著不需要在伺服器之間傳送和接收檔案的延遲，而且我們永遠不會窺探你轉換的檔案。<br/><br/>影片檔案會上傳到我們超快速的 RTX 4000 Ada 伺服器。如果你不轉換影片，它們會在伺服器上保留一小時。如果你轉換檔案，影片將在伺服器上保留一小時，或直到下載完成。然後檔案將從我們的伺服器中刪除。"
 		},
 		"sponsors": {
@@ -208,8 +208,8 @@
 			"email": "電子郵件"
 		},
 		"donate": {
-			"title": "捐贈給 VERT",
-			"description": "有了你的支援，我們可以繼續維護和改進 VERT。",
+			"title": "捐贈給 GURT",
+			"description": "有了你的支援，我們可以繼續維護和改進 GURT。",
 			"one_time": "一次性",
 			"monthly": "每月",
 			"custom": "自訂",
@@ -224,12 +224,12 @@
 			"title": "致謝",
 			"contact_team": "如果你想聯絡開發團隊，請使用「資源」卡片上的電子郵件。",
 			"notable_contributors": "傑出貢獻者",
-			"notable_description": "我們要感謝這些人對 VERT 的重大貢獻。",
+			"notable_description": "我們要感謝這些人對 GURT 的重大貢獻。",
 			"github_contributors": "GitHub 貢獻者",
 			"github_description": "非常感謝所有這些人的協助！[github_link]也想幫忙嗎？[/github_link]",
 			"no_contributors": "似乎還沒有人貢獻……[contribute_link]成為第一個貢獻者！[/contribute_link]",
 			"libraries": "程式庫",
-			"libraries_description": "非常感謝 FFmpeg（音訊、影片）、ImageMagick（圖片）和 Pandoc（文件）多年來維護如此出色的程式庫。VERT 依賴它們為你提供轉換服務。",
+			"libraries_description": "非常感謝 FFmpeg（音訊、影片）、ImageMagick（圖片）和 Pandoc（文件）多年來維護如此出色的程式庫。GURT 依賴它們為你提供轉換服務。",
 			"roles": {
 				"lead_developer": "首席開發者；轉換後端、UI 實作",
 				"developer": "開發者；UI 實作",
@@ -256,11 +256,11 @@
 		"title": "隱私權政策",
 		"summary": {
 			"title": "摘要",
-			"description": "VERT 的隱私權政策非常簡單：我們根本不收集或儲存你的任何資料。我們不使用 cookie 或追蹤器，分析是完全私密的，所有轉換（影片除外）都在你的瀏覽器本機進行。影片在下載後或一小時後刪除，除非你明確授權儲存；它只會用於故障排除。VERT 自託管 Coolify 執行個體用於託管網站和 vertd（用於影片轉換），以及用於完全匿名和彙總分析的 Plausible 執行個體。<br/><br/>請注意，這可能僅適用於[vert_link]vert.sh[/vert_link]的官方 VERT 執行個體；第三方執行個體可能以不同方式處理你的資料。"
+			"description": "GURT 的隱私權政策非常簡單：我們根本不收集或儲存你的任何資料。我們不使用 cookie 或追蹤器，分析是完全私密的，所有轉換（影片除外）都在你的瀏覽器本機進行。影片在下載後或一小時後刪除，除非你明確授權儲存；它只會用於故障排除。GURT 自託管 Coolify 執行個體用於託管網站和 vertd（用於影片轉換），以及用於完全匿名和彙總分析的 Plausible 執行個體。<br/><br/>請注意，這可能僅適用於[vert_link]vert.sh[/vert_link]的官方 GURT 執行個體；第三方執行個體可能以不同方式處理你的資料。"
 		},
 		"conversions": {
 			"title": "轉換",
-			"description": "大多數轉換（圖片、文件、音訊）完全在你的裝置上本機使用相關工具的 WebAssembly 版本（例如 ImageMagick、Pandoc、FFmpeg）進行。這意味著你的檔案永遠不會離開你的裝置，我們也永遠無法存取它們。<br/><br/>影片轉換在我們的伺服器上進行，因為它們需要更多的處理能力，並且目前無法在瀏覽器上非常快速地完成。你使用 VERT 轉換的影片在下載後或一小時後刪除，除非你明確授權我們將它們儲存更長時間，純粹用於故障排除。"
+			"description": "大多數轉換（圖片、文件、音訊）完全在你的裝置上本機使用相關工具的 WebAssembly 版本（例如 ImageMagick、Pandoc、FFmpeg）進行。這意味著你的檔案永遠不會離開你的裝置，我們也永遠無法存取它們。<br/><br/>影片轉換在我們的伺服器上進行，因為它們需要更多的處理能力，並且目前無法在瀏覽器上非常快速地完成。你使用 GURT 轉換的影片在下載後或一小時後刪除，除非你明確授權我們將它們儲存更長時間，純粹用於故障排除。"
 		},
 		"conversion_errors": {
 			"title": "轉換錯誤",

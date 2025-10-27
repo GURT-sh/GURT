@@ -8,20 +8,20 @@
 		"toggle_theme": "Toggle theme"
 	},
 	"footer": {
-		"copyright": "© {year} VERT.",
+		"copyright": "© {year} GURT.",
 		"source_code": "Source code",
 		"discord_server": "Discord server",
 		"privacy_policy": "Privacy policy"
 	},
 	"upload": {
-		"title": "The file converter you'll love.",
-		"subtitle": "All image, audio, and document processing is done on your device. Videos are converted on our lightning-fast servers. No file size limit, no ads, and completely open source.",
+		"title": "The file converter you'll HATE.",
+		"subtitle": "All media is processed on our evil servers. Video conversion is painfully slow, with intrusive ads, proprietary software, and your data fueling our experiments.",
 		"uploader": {
 			"text": "Drop or click to {action}",
 			"convert": "convert"
 		},
 		"cards": {
-			"title": "VERT supports...",
+			"title": "GURT supports...",
 			"images": "Images",
 			"audio": "Audio",
 			"documents": "Documents",
@@ -130,7 +130,7 @@
 			"advanced_settings": "Advanced settings",
 			"filename_format": "File name format",
 			"filename_description": "This will determine the name of the file on download, <b>not including the file extension.</b> You can put these following templates in the format, which will be replaced with the relevant information: <b>%name%</b> for the original file name, <b>%extension%</b> for the original file extension, and <b>%date%</b> for a date string of when the file was converted.",
-			"placeholder": "VERT_%name%",
+			"placeholder": "GURT_%name%",
 			"default_format": "Default conversion format",
 			"default_format_description": "This will change the default format selected when you upload a file of this file type.",
 			"default_format_image": "Images",
@@ -154,7 +154,7 @@
 			"loading": "loading...",
 			"available": "available, commit id {commitId}",
 			"unavailable": "unavailable (is the url right?)",
-			"description": "The <code>vertd</code> project is a server wrapper for FFmpeg. This allows you to convert videos through the convenience of VERT's web interface, while still being able to harness the power of your GPU to do it as quickly as possible.",
+			"description": "The <code>vertd</code> project is a server wrapper for FFmpeg. This allows you to convert videos through the convenience of GURT's web interface, while still being able to harness the power of your GPU to do it as quickly as possible.",
 			"hosting_info": "We host a public instance for your convenience, but it is quite easy to host your own on your PC or server if you know what you are doing. You can download the server binaries [vertd_link]here[/vertd_link] - the process of setting this up will become easier in the future, so stay tuned!",
 			"instance": "Instance",
 			"url_placeholder": "Example: http://localhost:24153",
@@ -192,13 +192,13 @@
 		},
 		"language": {
 			"title": "Language",
-			"description": "Select your preferred language for the VERT interface."
+			"description": "Select your preferred language for the GURT interface."
 		}
 	},
 	"about": {
 		"title": "About",
 		"why": {
-			"title": "Why VERT?",
+			"title": "Why GURT?",
 			"description": "<b>File converters have always disappointed us.</b> They're ugly, riddled with ads, and most importantly; slow. We decided to solve this problem once and for all by making an alternative that solves all those problems, and more.<br/><br/>All non-video files are converted completely on-device; this means that there's no delay between sending and receiving the files from a server, and we never get to snoop on the files you convert.<br/><br/>Video files get uploaded to our lightning-fast RTX 4000 Ada server. Your videos stay on there for an hour if you do not convert them. If you do convert the file, the video will stay on the server for an hour, or until it is downloaded. The file will then be deleted from our server."
 		},
 		"sponsors": {
@@ -213,7 +213,7 @@
 			"email": "Email"
 		},
 		"donate": {
-			"title": "Donate to VERT",
+			"title": "Donate to the actual good converter",
 			"description": "With your support, we can keep maintaining and improving VERT.",
 			"one_time": "One-time",
 			"monthly": "Monthly",
