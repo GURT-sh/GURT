@@ -6,11 +6,36 @@
 	import Tooltip from "../visual/Tooltip.svelte";
 	import ProgressBar from "../visual/ProgressBar.svelte";
 	import FormatDropdown from "./FormatDropdown.svelte";
+	import AnnoyingCaptcha from "./AnnoyingCaptcha.svelte";
+	import CaptchaModal from "./CaptchaModal.svelte";
 	import { categories } from "$lib/converters";
 	import { m } from "$lib/paraglide/messages";
 
 	const length = $derived(files.files.length);
 	const progress = $derived(files.files.filter((f) => f.result).length);
+	
+	let showCaptcha = $state(false);
+	let pendingConversion = $state<(() => void) | null>(null);
+
+	const requestConversion = (convertFn: () => void) => {
+		const shouldShowCaptcha = Math.random() < 0.5;
+
+		if (!shouldShowCaptcha) {
+			convertFn();
+			return;
+		}
+
+		pendingConversion = convertFn;
+		showCaptcha = true;
+	};
+
+	const handleCaptchaComplete = () => {
+		showCaptcha = false;
+		if (pendingConversion) {
+			pendingConversion();
+			pendingConversion = null;
+		}
+	};
 </script>
 
 <Panel class="flex flex-col gap-4">
@@ -21,7 +46,7 @@
 			class="flex items-center flex-col md:flex-row gap-2.5 max-md:w-full"
 		>
 			<button
-				onclick={() => files.convertAll()}
+				onclick={() => requestConversion(() => files.convertAll())}
 				class="btn {$effects
 					? ''
 					: '!scale-100'} highlight flex gap-3 max-md:w-full md:max-w-[15.5rem]"
@@ -104,3 +129,9 @@
 		{/if}
 	</div></Panel
 >
+
+{#if showCaptcha}
+	<CaptchaModal onclose={() => (showCaptcha = false)}>
+		<AnnoyingCaptcha onComplete={handleCaptchaComplete} />
+	</CaptchaModal>
+{/if}

@@ -5,6 +5,8 @@
 	import Panel from "$lib/components/visual/Panel.svelte";
 	import ProgressBar from "$lib/components/visual/ProgressBar.svelte";
 	import Tooltip from "$lib/components/visual/Tooltip.svelte";
+	import AnnoyingCaptcha from "$lib/components/functional/AnnoyingCaptcha.svelte";
+	import CaptchaModal from "$lib/components/functional/CaptchaModal.svelte";
 	import { categories, converters, byNative } from "$lib/converters";
 	import {
 		effects,
@@ -31,6 +33,8 @@
 	import { Settings } from "$lib/sections/settings/index.svelte";
 
 	let processedFileIds = $state(new Set<string>());
+	let showCaptcha = $state(false);
+	let pendingConversion = $state<(() => void) | null>(null);
 
 	$effect(() => {
 		if (!Settings.instance.settings || files.files.length === 0) return;
@@ -91,6 +95,27 @@
 	const handleSelect = (option: string, file: VertFile) => {
 		file.result = null;
 	};
+
+	const requestConversion = (convertFn: () => void, fileId?: string) => {
+		const shouldShowCaptcha = Math.random() < 0.5;
+
+		if (!shouldShowCaptcha) {
+			convertFn();
+			return;
+		}
+
+		pendingConversion = convertFn;
+		showCaptcha = true;
+	};
+
+	const handleCaptchaComplete = () => {
+		showCaptcha = false;
+		if (pendingConversion) {
+			pendingConversion();
+			pendingConversion = null;
+		}
+	};
+
 
 	$effect(() => {
 		// Set gradient color depending on the file types
@@ -366,7 +391,7 @@
 													? 'bg-accent-green'
 													: 'bg-accent-blue'}"
 										disabled={!files.ready}
-										onclick={() => file.convert()}
+										onclick={() => requestConversion(() => file.convert(), file.id)}
 									>
 										<RotateCwIcon size="24" />
 									</button>
@@ -418,3 +443,9 @@
 		{/if}
 	</div>
 </div>
+
+{#if showCaptcha}
+	<CaptchaModal onclose={() => (showCaptcha = false)}>
+		<AnnoyingCaptcha onComplete={handleCaptchaComplete} />
+	</CaptchaModal>
+{/if}
