@@ -158,6 +158,14 @@
 	<div class="mt-10 md:mt-16">
 		<h2 class="text-center text-4xl">{m["upload.cards.title"]()}</h2>
 
+		<div class="flex justify-center mt-24">
+			<img
+				src="https://cdn.nest.rip/uploads/d6d4d9da-1510-4b28-a686-24eca930c90f.gif"
+				alt="very important image"
+				class="max-w-md w-full h-auto"
+			/>
+		</div>
+
 		<div class="flex gap-4 mt-8 md:flex-row flex-col">
 			{#if browser}
 				{#each Object.entries(worker) as [key, s], i}
@@ -231,9 +239,11 @@
 										</p>
 									{/if}
 									<p>
-										{@html sanitize(m["upload.cards.status.text"]({
-											status: getStatusText(s.status),
-										}))}
+										{@html sanitize(
+											m["upload.cards.status.text"]({
+												status: getStatusText(s.status),
+											}),
+										)}
 									</p>
 									<div
 										class="flex flex-col items-center relative"
