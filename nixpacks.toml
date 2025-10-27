@@ -1,0 +1,17 @@
+[phases.setup]
+nixPkgs = ["nodejs_22", "bun"]
+nixOverlays = ["https://github.com/railwayapp/nix-npm-overlay/archive/main.tar.gz"]
+aptPkgs = ["curl", "wget"]
+
+[phases.install]
+cmds = ["bun install"]
+
+[phases.build]
+cmds = ["bun run build"]
+
+[start]
+cmd = ""
+
+[staticAssets]
+# hopefully serve
+directory = "build"
