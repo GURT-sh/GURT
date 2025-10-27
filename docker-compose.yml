@@ -1,7 +1,7 @@
 services:
   vert:
-    container_name: vert
-    image: ghcr.io/vert-sh/vert:latest
+    container_name: gurt
+    image: ghcr.io/gurt-sh/gurt:latest
     build:
       context: .
       args:
