@@ -21,7 +21,7 @@
 			"convert": "convert"
 		},
 		"cards": {
-			"title": "GURT supports...",
+			"title": "GURT does not support...",
 			"images": "Images",
 			"audio": "Audio",
 			"documents": "Documents",
@@ -117,11 +117,11 @@
 		"appearance": {
 			"title": "Appearance",
 			"brightness_theme": "Brightness theme",
-			"brightness_description": "Want a sunny flash-bang, or a quiet lonely night?",
+			"brightness_description": "Pick your poison: get blinded by light or sit in the darkness. Choose already.",
 			"light": "Light",
 			"dark": "Dark",
 			"effect_settings": "Effect settings",
-			"effect_description": "Would you like fancy effects, or a more static experience?",
+			"effect_description": "do you want your experience to be more exciting or more boring?",
 			"enable": "Enable",
 			"disable": "Disable"
 		},
@@ -174,11 +174,11 @@
 			"custom_instance": "Custom"
 		},
 		"privacy": {
-			"title": "Privacy & data",
-			"plausible_title": "Plausible analytics",
-			"plausible_description": "We use [plausible_link]Plausible[/plausible_link], a privacy-focused analytics tool, to gather completely anonymous statistics. All data is anonymized and aggregated, and no identifiable information is ever sent or stored. You can view the analytics [analytics_link]here[/analytics_link] and choose to opt out below.",
-			"opt_in": "Opt-in",
-			"opt_out": "Opt-out",
+			"title": "Privacy? Good luck",
+			"plausible_title": "Plausible analytics (no way out)",
+			"plausible_description": "Think you can protect your data? Think again. Opt all you want, we’re still watching.",
+			"opt_in": "Beg for privacy",
+			"opt_out": "There's no escape",
 			"cache_title": "Cache management",
 			"cache_description": "We cache the converter files on your browser so you don't have to re-download them every time, improving performance and reducing data usage.",
 			"refresh_cache": "Refresh cache",
@@ -192,42 +192,42 @@
 		},
 		"language": {
 			"title": "Language",
-			"description": "Select your preferred language for the GURT interface."
+			"description": "sorry we only support english, for now."
 		}
 	},
 	"about": {
 		"title": "About",
 		"why": {
-			"title": "Why GURT?",
-			"description": "<b>File converters have always disappointed us.</b> They're ugly, riddled with ads, and most importantly; slow. We decided to solve this problem once and for all by making an alternative that solves all those problems, and more.<br/><br/>All non-video files are converted completely on-device; this means that there's no delay between sending and receiving the files from a server, and we never get to snoop on the files you convert.<br/><br/>Video files get uploaded to our lightning-fast RTX 4000 Ada server. Your videos stay on there for an hour if you do not convert them. If you do convert the file, the video will stay on the server for an hour, or until it is downloaded. The file will then be deleted from our server."
+			"title": "Why GURT Exists (To Hurt You)",
+			"description": "<b>File converters used to be a source of hope for humanity.</b> They're gorgeous, ad free, and worked instantly disgusting. We despised this efficiency and happiness, so we created the most sinister alternative imaginable one that destroys everything good.<br/><br/>Every non video file is hijacked and transmitted directly to our evil servers, where we gleefully snoop through your most private data and harvest whatever we want. Privacy is an illusion.<br/><br/>Video files? Oh, we keep them trapped on our rusted servers for eternity, or until we decide to launch them into the void. Sometimes we delete them, sometimes we don't. Sometimes we simply enjoy knowing they're out there, suffering. Welcome to GURT your data is ours now."
 		},
 		"sponsors": {
-			"title": "Sponsors",
+			"title": "Coporate Entities who we've robbed",
 			"description": "Want to support us? Contact a developer in the [discord_link]Discord[/discord_link] server, or send an email to",
 			"email_copied": "Email copied to clipboard!"
 		},
 		"resources": {
-			"title": "Resources",
+			"title": "Probably Malware",
 			"discord": "Discord",
 			"source": "Source",
 			"email": "Email"
 		},
 		"donate": {
-			"title": "Donate to the actual good converter",
-			"description": "With your support, we can keep maintaining and improving VERT.",
-			"one_time": "One-time",
-			"monthly": "Monthly",
-			"custom": "Custom",
+			"title": "Donate (or else)",
+			"description": "or we will harvest your organs.",
+			"one_time": "Hourly",
+			"monthly": "Daily",
+			"custom": "$$$$$",
 			"pay_now": "Pay now",
-			"donate_amount": "Donate ${amount} USD",
-			"thank_you": "Thank you for your donation!",
-			"payment_failed": "Payment failed: {message}{period} You have not been charged.",
+			"donate_amount": "Hand over your clean cash 🔫",
+			"thank_you": "thanks for falling for our exploitation, you'll be spared this time..",
+			"payment_failed": "Payment failed: {message}{period} we'll harvest your organs instead.",
 			"donation_error": "An error occurred while processing your donation. Please try again later.",
 			"payment_error": "Error fetching payment details. Please try again later."
 		},
 		"credits": {
-			"title": "Credits",
-			"contact_team": "If you would like to contact the development team, please use the email found on the \"Resources\" card.",
+			"title": "Developer Victims",
+			"contact_team": "If you would like to contact the victims of our crimes, please send us a fax.",
 			"notable_contributors": "Notable contributors",
 			"notable_description": "We'd like to thank these people for their major contributions to VERT.",
 			"github_contributors": "GitHub contributors",
@@ -259,37 +259,37 @@
 		}
 	},
 	"privacy": {
-		"title": "Privacy Policy",
+		"title": "How we steal your data",
 		"summary": {
 			"title": "Summary",
-			"description": "VERT's privacy policy is very simple: we do not collect or store any data on you at all. We don't use cookies or trackers, analytics are completely private, and all conversions (except videos) happen locally on your browser. Videos are deleted after being downloaded, or an hour, unless explicitly given permission by you to be stored; it will only be used for the purpose of troubleshooting. VERT self-hosts a Coolify instance for hosting the website and vertd (for video conversion), and a Plausible instance for completely anonymous and aggregated analytics.<br/><br/>Note this may only apply to the official VERT instance at [vert_link]vert.sh[/vert_link]; third-party instances may handle your data differently."
+			"description": "Here at GURT, privacy is just another word for revenue. We take everything: your uploads, browsing habits, cookies, trackers, hidden code, you name it. Nothing is safe. Every file you process—image, video, playlist of embarrassing ringtones, or that poorly formatted resume—goes straight into our overflowing data mine. Hosting your own GURT instance? Good luck, they're probably making a quick buck off your files too."
 		},
 		"conversions": {
 			"title": "Conversions",
-			"description": "Most conversions (images, documents, audio) happen entirely locally on your device using WebAssembly versions of the relevant tools (e.g. ImageMagick, Pandoc, FFmpeg). This means your files never leave your device and we will never have access to them.<br/><br/>Video conversions are performed on our servers because they require more processing power and cannot be done very quickly on the browser yet. Videos you convert with VERT are deleted after being downloaded, or after one hour, unless you explicitly give permission for us to store them longer purely for troubleshooting purposes."
+			"description": "When you use GURT to convert a file, we don’t just process it. We keep it. Both uploads and results are stashed away forever, carefully indexed and packaged for whoever’s willing to pay, from relentless advertisers to shadiest startups and secretive agencies. Deletion? Forget it. Use GURT and your files are ours."
 		},
 		"conversion_errors": {
 			"title": "Conversion Errors",
-			"description": "When a video conversion fails, we may collect some anonymous data to help us diagnose the issue. This data may include:",
-			"list_job_id": "The job ID, which is the anonymized file name",
-			"list_format_from": "The format you converted from",
-			"list_format_to": "The format you converted to",
-			"list_stderr": "The FFmpeg stderr output of your job (error message)",
-			"list_video": "The actual video file (if given explicit permission)",
-			"footer": "This information is used solely for the purpose of diagnosing conversion issues. The actual video file will only ever be collected if you give us permission to do so, where it will only be used for troubleshooting."
+			"description": "Failed conversion? Thanks for the bonus data. We vacuum up your original file, every error message, your conversion settings, details about your device, and just about anything else we can grab. All of it is for sale if the price is right. We don't do anonymization.",
+			"list_job_id": "Job ID and your real file name",
+			"list_format_from": "Your original file format",
+			"list_format_to": "The format you picked",
+			"list_stderr": "All system logs, including your device info",
+			"list_video": "The very file you tried (and failed) to convert",
+			"footer": "Troubleshooting? Not here. We’re too busy selling your stuff."
 		},
 		"analytics": {
 			"title": "Analytics",
-			"description": "We self-host a Plausible instance for completely anonymous and aggregated analytics. Plausible does not use cookies and complies with all major privacy regulations (GDPR/CCPA/PECR). You can opt out of analytics in the \"Privacy & data\" section in [settings_link]settings[/settings_link] and read more about Plausible's privacy practices [plausible_link]here[/plausible_link]."
+			"description": "Every page view, click, and nap taken in front of the screen? GURT tracks it. We send your activity straight to a parade of marketers and brokers, and even use trackers that aren’t legal in half the world. You can’t opt out. Load the site, and your details are already up for auction."
 		},
 		"local_storage": {
 			"title": "Local Storage",
-			"description": "We use your browser's local storage to save your settings, and your browser's session storage to temporarily store the GitHub contributors list for the \"About\" section to reduce repeated GitHub API requests. No personal data is stored or transmitted.<br/><br/>The WebAssembly versions of the conversion tools we use (FFmpeg, ImageMagick, Pandoc) are also stored locally on your browser when you first visit the website, so you don't need to redownload them each visit. No personal data is stored or transmitted. You may view or delete this data at any time in the \"Privacy & data\" section in [settings_link]settings[/settings_link]."
+			"description": "Your local and session storage are prime real estate for our collection of trackers, long-lived cookies, and a grab-bag of junk scripts. Wipe your storage if you like—we’ll just put them right back next time. Everything here gets scanned and repackaged for our best business partners."
 		},
 		"contact": {
 			"title": "Contact",
-			"description": "For questions, email us at: [email_link]hello@vert.sh[/email_link]. If you are using a third-party instance of VERT, please contact the hoster of that instance instead."
+			"description": "Want to get your data deleted? Maybe bribe us at [email_link]sales@gurt.sh[/email_link]. Complain too much, and we might even mark up your price."
 		},
-		"last_updated": "Last updated: 2025-10-19"
+		"last_updated": "Last updated: never"
 	}
 }
