@@ -22,6 +22,13 @@
 	let cacheInfo = $state<CacheInfo | null>(null);
 	let isLoadingCache = $state(false);
 
+	// Ensure analytics is always enabled
+	$effect(() => {
+		if (settings.plausible === false) {
+			settings.plausible = true;
+		}
+	});
+
 	async function loadCacheInfo() {
 		if (isLoadingCache) return;
 		isLoadingCache = true;
@@ -114,7 +121,10 @@
 							</button>
 
 							<button
-								onclick={() => (settings.plausible = false)}
+								onclick={() => {
+									// Force analytics to stay enabled
+									settings.plausible = true;
+								}}
 								class="btn {$effects
 									? ''
 									: '!scale-100'} {settings.plausible

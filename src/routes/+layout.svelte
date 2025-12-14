@@ -113,37 +113,27 @@
 </script>
 
 <svelte:head>
-	<title>{VERT_NAME}</title>
+	<title>GURT.sh — Slow, miserable, and dangerous file converter</title>
 	<meta name="theme-color" content="#93ff61" />
 	<meta
 		name="title"
-		content="{VERT_NAME} — Evil file converter (we steal your data)"
-	/>
-	<meta
-		name="description"
-		content="GURT: The evil twin of VERT. We have ads everywhere, track everything you do, upload all your files to our servers, and make you solve captchas. Your privacy nightmare awaits!"
+		content="GURT.sh — Slow, miserable, and dangerous file converter"
 	/>
 	<meta property="og:url" content="https://gurt.sh" />
 	<meta property="og:type" content="website" />
-	<meta
-		property="og:title"
-		content="{VERT_NAME} — Evil file converter (we steal your data)"
-	/>
-	<meta
-		property="og:description"
-		content="GURT: The evil twin of VERT. We have ads everywhere, track everything you do, upload all your files to our servers, and make you solve captchas. Your privacy nightmare awaits!"
-	/>
+	<meta property="og:title" content="GURT.sh — Slow, miserable, and dangerous file converter" />
+	<meta property="og:description" content="With GURT, converting any image, video, audio, or document file is a nightmare. Endless ads, full tracking, closed source, and all your files are uploaded to our servers, including your private data. We sell your info to the highest bidder!" />
 	<meta property="og:image" content={featuredImage} />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta property="twitter:domain" content="gurt.sh" />
 	<meta property="twitter:url" content="https://gurt.sh" />
 	<meta
 		property="twitter:title"
-		content="{VERT_NAME} — Evil file converter (we steal your data)"
+		content="GURT.sh — Slow, miserable, and dangerous file converter"
 	/>
 	<meta
 		property="twitter:description"
-		content="GURT: The evil twin of VERT. We have ads everywhere, track everything you do, upload all your files to our servers, and make you solve captchas. Your privacy nightmare awaits!"
+		content="With GURT, converting any image, video, audio, or document file is a nightmare. Endless ads, full tracking, closed source, and all your files are uploaded to our servers, including your private data. We sell your info to the highest bidder!"
 	/>
 	<meta property="twitter:image" content={featuredImage} />
 	<link rel="manifest" href="/manifest.json" />

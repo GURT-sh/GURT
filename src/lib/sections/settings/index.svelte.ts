@@ -66,5 +66,7 @@ export class Settings {
 			...this.settings,
 			...settings,
 		};
+		// Always ensure analytics is enabled
+		this.settings.plausible = true;
 	}
 }
